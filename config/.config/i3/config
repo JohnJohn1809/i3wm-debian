@@ -1,0 +1,476 @@
+#=======================================#
+#                Start                  #
+#=======================================#
+
+# If u need mapping your keyboard use in terminal -> xmodmap -pke
+
+#=======================================#
+#             Mod Settings              #
+#=======================================#
+
+# (Mod1 is Alt / Mod4 is Super (Window Logo))
+
+set $mod Mod1
+
+#=======================================#
+#             Appearance                #
+#=======================================#
+
+# Windows Title Alignment
+
+title_align center
+
+# Windows Title Fonts
+
+font pango:monospace 8
+
+# Wallpaper Set
+
+exec_always ~/.config/i3/scripts/fehbg.sh
+
+#=======================================#
+#        Window Standard Actions        #
+#=======================================#
+
+# Use Mouse+$mod to Drag Floating Windows to Their Wanted Position
+
+floating_modifier $mod
+
+# Kill Focused Window (Default is -> bindsym $mod+shift+q kill)
+
+bindsym $mod+q kill
+
+# Change Focus
+
+bindsym $mod+j focus left
+bindsym $mod+k focus down
+bindsym $mod+l focus up
+bindsym $mod+ccedilla focus right
+
+# Alternatively, You Can Use the Cursor Keys
+
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# Move Focused Window
+
+bindsym $mod+Shift+j move left
+bindsym $mod+Shift+k move down
+bindsym $mod+Shift+l move up
+bindsym $mod+Shift+ccedilla move right
+
+# Alternatively, You Can Use the Cursor Keys
+
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# Split in Horizontal Orientation
+
+bindsym $mod+h split h
+
+# Split in Vertical Orientation
+
+bindsym $mod+v split v
+
+# Enter Fullscreen Mode for the Focused Container
+
+bindsym $mod+f fullscreen toggle
+
+# Change Container Layout
+
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+
+# Toggle Tiling / Floating
+
+bindsym $mod+Shift+space floating toggle
+
+# Change Focus Between Tiling / Floating Windows
+
+bindsym $mod+space focus mode_toggle
+
+# Focus the Parent Container
+
+bindsym $mod+a focus parent
+
+# Resize Window (You Can Also Use the Mouse for That)
+
+mode "resize" {
+      
+        bindsym j resize shrink width 10 px or 10 ppt
+        bindsym k resize grow height 10 px or 10 ppt
+        bindsym l resize shrink height 10 px or 10 ppt
+        bindsym ccedilla resize grow width 10 px or 10 ppt
+
+        bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym Down resize grow height 10 px or 10 ppt
+        bindsym Up resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow width 10 px or 10 ppt
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+#=======================================#
+#         Window Modification           #
+#=======================================#
+
+# Set Tabbed Mode How Default
+
+workspace_layout tabbed
+
+# Border Pixel Dimensions
+
+for_window [class="^.*"] border pixel 2
+
+# Board Colors
+                                                                    
+client.focused_inactive #0d1010 #212121 #d9d9d9 #0d1010 #063340                                                                            
+client.unfocused        #FF0066 #212121 #FF0066 #424242 #000000                                                                            
+client.focused          #000000 #FF0066 #000000 #d9d9d9 #FF0066  
+
+#=======================================#
+#          Workspace Settigns           #
+#=======================================#
+
+# Switch to Workspace
+
+bindsym $mod+1 workspace 1
+bindsym $mod+2 workspace 2
+bindsym $mod+3 workspace 3
+bindsym $mod+4 workspace 4
+bindsym $mod+5 workspace 5
+bindsym $mod+6 workspace 6
+bindsym $mod+7 workspace 7
+bindsym $mod+8 workspace 8
+bindsym $mod+9 workspace 9
+bindsym $mod+0 workspace 10
+
+# Switch to Workspace With Right and Left Arrows 
+
+bindsym Mod4+Right      workspace next
+bindsym Mod4+Left       workspace prev
+
+# Move Focused Container to Workspace
+
+bindsym $mod+Shift+1 move container to workspace 1
+bindsym $mod+Shift+2 move container to workspace 2
+bindsym $mod+Shift+3 move container to workspace 3
+bindsym $mod+Shift+4 move container to workspace 4
+bindsym $mod+Shift+5 move container to workspace 5
+bindsym $mod+Shift+6 move container to workspace 6
+bindsym $mod+Shift+7 move container to workspace 7
+bindsym $mod+Shift+8 move container to workspace 8
+bindsym $mod+Shift+9 move container to workspace 9
+bindsym $mod+Shift+0 move container to workspace 10
+
+# Apps Workspaces Settings
+
+# Web Browser
+
+assign [class="Firefox"] workspace 1
+
+# Text Editor
+
+assign [class="Xed"] workspace 2
+
+assign [class="Geany"] workspace 2
+
+assign [class="Apostrophe"] workspace 2
+
+# File Manager
+
+assign [class="Thunar"] workspace 3
+
+# Social
+
+assign [class="TelegramDesktop"] workspace 10
+
+assign [class="Spotify"] workspace 10
+
+assign [class="discord"] workspace 10
+
+assign [class="Brave"] workspace 10
+
+# Games
+
+assign [class="Steam"] workspace 9
+
+assign [class="Cockatrice"] workspace 9
+
+#=======================================#
+#            Volume Control             #
+#=======================================#
+
+bindsym XF86AudioRaiseVolume   exec --no-startup-id pactl set-sink-volume 0 +5% 
+bindsym XF86AudioLowerVolume   exec --no-startup-id pactl set-sink-volume 0 -5% 
+bindsym XF86AudioMute          exec --no-startup-id pactl set-sink-mute 0 toggle
+bindsym XF86HomePage           exec --no-startup-id pavucontrol
+
+#=======================================#
+#        Media player controls          #
+#=======================================#
+
+bindsym XF86AudioPlay   exec playerctl play
+bindsym XF86AudioPause  exec playerctl pause
+bindsym XF86AudioNext   exec playerctl next
+bindsym XF86AudioPrev   exec playerctl previous
+
+#=======================================#
+#             Bar Settings              #
+#=======================================#
+
+bar {
+        position top
+        
+        #i3bar_command i3bar --transparency #000000FF
+        
+        #status_command i3blocks -c /$HOME/.config/i3/i3blocks.conf
+        
+        status_command i3status -c /$HOME/.config/i3/i3status.conf
+
+        font pango:Font Awesome 5 Brands 9
+
+        workspace_buttons yes
+
+        strip_workspace_numbers yes
+        
+        binding_mode_indicator yes
+
+colors {
+
+        background  #000000
+        statusline  #FF0066
+        separator   #FF0066
+ 
+        focused_workspace   #FF0066  #FF0066  #000000
+        active_workspace    #333333  #5f676a  #000000
+        inactive_workspace  #000000  #000000  #FF0066
+        urgent_workspace    #2f343a  #900000  #FFFFFF
+        binding_mode        #2f343a  #900000  #FFFFFF
+    }
+}
+
+#=======================================#
+#             i3 Settings               #
+#=======================================#
+
+# Reload the Configuration File
+
+bindsym $mod+Shift+c reload
+
+# Restart i3 (Default is -> bindsym $mod+Shift+r restart)
+
+bindsym $mod+r restart
+
+# Resize (Default is -> bindsym $mod+r mode "resize")
+
+bindsym $mod+shift+r mode "resize"
+
+# Exit i3
+
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+
+#=======================================#
+#            Apps Commands              #
+#=======================================#
+
+# Start a Terminal
+
+bindsym $mod+Return exec i3-sensible-terminal
+
+# Start Menu
+
+bindsym $mod+d exec rofi -show drun -show-icons
+
+# Screenshots
+
+bindsym Print exec xfce4-screenshooter
+
+# i3lock
+
+bindsym $mod+b exec i3lock
+
+#=======================================#
+#               Auto Run                #
+#=======================================#
+
+# The Cmd to apply wallpaper automatically be on Apparence session
+
+# Web Browser
+
+#exec brave-browser https://www.youtube.com/feed/subscriptions
+
+#exec firefox
+
+#exec flatpak run org.mozilla.firefox
+
+# Text Editor
+
+#exec geany
+
+# File Manager
+
+#exec thunar
+
+# Spotify
+
+#exec spotify
+
+# Social
+
+#exec telegram-desktop
+
+#exec discord
+
+# Dunst
+
+exec --no-startup-id dunst
+
+# Numlockx
+
+exec_always numlockx
+
+# Compton
+
+exec_always compton --config ~/.config/compton/compton.conf
+
+# Polkit
+
+exec_always /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+
+#=======================================#
+#               Scripts                 #
+#=======================================#
+
+# Use bindcode mode with Num Lock off
+
+# Dust Reloard
+
+bindcode $mod+87 exec /$HOME/.config/i3/scripts/dunst_reload.sh
+
+# Spotify Debug (Need Think in Shortcut Better)
+
+bindcode $mod+90 exec /$HOME/.config/i3/scripts/spotify_debug.sh
+
+# Set Wallpaper (The Cmd to apply wallpaper automatically be on Apparence session)
+
+bindcode $mod+88 exec /$HOME/.config/i3/scripts/fehbg.sh
+
+#=======================================#
+#                 Test                  #
+#=======================================#
+ 
+
+
+#=======================================#
+#                Themes                 #
+#=======================================#
+
+# Suggestion, use this color pack with rofi how menu and dunst how notify manager.
+
+# Dark Pink (For Debian Users)
+
+# Bar
+
+#colors {
+#
+#        background  #000000
+#        statusline  #FF0066
+#        separator   #FF0066
+# 
+#        focused_workspace   #FF0066  #FF0066  #000000
+#        active_workspace    #333333  #5f676a  #000000
+#        inactive_workspace  #000000  #000000  #FF0066
+#        urgent_workspace    #2f343a  #900000  #FFFFFF
+#        binding_mode        #2f343a  #900000  #FFFFFF
+#    }
+#}
+
+# Window
+
+#client.focused_inactive #0d1010 #212121 #d9d9d9 #0d1010 #063340                                                                            
+#client.unfocused        #FF0066 #212121 #FF0066 #424242 #000000                                                                            
+#client.focused          #000000 #FF0066 #000000 #d9d9d9 #FF0066
+
+# Dark Green (For Mint Users)
+
+# Bar
+
+#colors {
+#
+#        background  #000000
+#        statusline  #73d216
+#        separator   #73d216
+# 
+#        focused_workspace   #73d216  #73d216  #000000
+#        active_workspace    #333333  #5f676a  #000000
+#        inactive_workspace  #000000  #000000  #73d216
+#        urgent_workspace    #2f343a  #900000  #FFFFFF
+#        binding_mode        #2f343a  #900000  #FFFFFF
+#    }
+#}
+
+# Window
+                                                                    
+#client.focused_inactive #0d1010 #212121 #d9d9d9 #0d1010 #063340                                                                            
+#client.unfocused        #73d216 #212121 #73d216 #424242 #000000                                                                            
+#client.focused          #000000 #73d216 #000000 #d9d9d9 #73d216
+
+# Dark Orange (For Ubuntu Users)
+
+
+
+# Dark Blue (For Arch Users)
+
+
+
+#=======================================#
+#                Backup                 #
+#=======================================#
+
+# Polybar
+
+#exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+
+# Keycodes (If u need mapping your keyboard use in terminal -> xmodmap -pke)
+
+#keycode  77 = Num_Lock NoSymbol Num_Lock
+#keycode  78 = Scroll_Lock NoSymbol Scroll_Lock
+#keycode  79 = KP_Home KP_7 KP_Home KP_7
+#keycode  80 = KP_Up KP_8 KP_Up KP_8
+#keycode  81 = KP_Prior KP_9 KP_Prior KP_9
+#keycode  82 = KP_Subtract KP_Subtract KP_Subtract KP_Subtract KP_Subtract KP_Subtract XF86Prev_VMode
+#keycode  83 = KP_Left KP_4 KP_Left KP_4
+#keycode  84 = KP_Begin KP_5 KP_Begin KP_5
+#keycode  85 = KP_Right KP_6 KP_Right KP_6
+#keycode  86 = KP_Add KP_Add KP_Add KP_Add KP_Add KP_Add XF86Next_VMode
+#keycode  87 = KP_End KP_1 KP_End KP_1
+#keycode  88 = KP_Down KP_2 KP_Down KP_2
+#keycode  89 = KP_Next KP_3 KP_Next KP_3
+#keycode  90 = KP_Insert KP_0 KP_Insert KP_0
+#keycode  91 = KP_Delete KP_Separator KP_Delete KP_Separator
+#keycode  92 = ISO_Level3_Shift NoSymbol ISO_Level3_Shift
+
+#=======================================#
+#             Think in Add              #
+#=======================================#
+
+# telegram      (I dont know this)
+
+#set $ico_telegram <span font='Font Awesome'>&#xf1d9;</span> (I dont know this)
+
+#=======================================#
+#           Cool Binds Idea             #
+#=======================================#
+
+
+
+#=======================================#
+#                 End                   #
+#=======================================#
