@@ -47,7 +47,7 @@ bindsym $mod+k focus down
 bindsym $mod+l focus up
 bindsym $mod+ccedilla focus right
 
-# Alternatively, You Can Use the Cursor Keys
+# Alternatively, You Can Use the Cursor Keys (Action on Tab in Window Modification Topic)
 
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
@@ -151,10 +151,15 @@ bindsym $mod+8 workspace 8
 bindsym $mod+9 workspace 9
 bindsym $mod+0 workspace 10
 
-# Switch to Workspace With Right and Left Arrows 
+# Switch to Workspace With Right, Left Arrows and Tab 
 
 bindsym Mod4+Right      workspace next
 bindsym Mod4+Left       workspace prev
+bindsym Mod4+Tab      workspace next
+
+# Switch to Windown With Tab 
+
+bindsym $mod+Tab focus left
 
 # Move Focused Container to Workspace
 
@@ -367,7 +372,7 @@ bindcode $mod+88 exec /$HOME/.config/i3/scripts/fehbg.sh
 #=======================================#
  
 
-
+ 
 #=======================================#
 #                Themes                 #
 #=======================================#
