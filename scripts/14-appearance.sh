@@ -21,10 +21,18 @@ sudo apt install papirus-icon-theme -y
 
 # Local Gtk Theme
 
+#cd -
+#cd gtk-themes
+#cd icons
+#sudo tar xvzf capitaine-cursor-dark-r4.tar.gz -C /usr/share/icons/
+#cd -
+#cd -
+#cd scripts
+
 cd -
 cd gtk-themes
 cd icons
-sudo tar xvzf capitaine-cursor-dark-r4.tar.gz -C /usr/share/icons/
+sudo cp -r Adwaita /usr/share/icons/
 cd -
 cd -
 cd scripts
