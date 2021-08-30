@@ -40,4 +40,6 @@ flatpak install flathub com.github.maoschanz.drawing
 
 #flatpak install flathub org.gnome.EasyTAG
 
+flatpak install flathub net.ankiweb.Anki
+
 flatpak install flathub com.rafaelmardojai.Blanket
