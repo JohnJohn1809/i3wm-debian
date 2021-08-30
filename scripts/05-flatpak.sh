@@ -30,6 +30,12 @@ flatpak install flathub com.simplenote.Simplenote
 
 flatpak install flathub org.gnome.gitlab.somas.Apostrophe
 
+# Image Editor
+
+flatpak install flathub org.gimp.GIMP
+
+flatpak install flathub com.github.maoschanz.drawing
+
 # Other
 
 #flatpak install flathub org.gnome.EasyTAG
