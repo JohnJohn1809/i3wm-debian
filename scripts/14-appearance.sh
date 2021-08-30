@@ -29,6 +29,8 @@ sudo apt install papirus-icon-theme -y
 #cd -
 #cd scripts
 
+# Fake Adwaita Theme for Fix Mouse in Flatpak Apps
+
 cd -
 cd gtk-themes
 cd icons
