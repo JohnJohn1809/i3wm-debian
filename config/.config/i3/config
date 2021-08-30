@@ -208,6 +208,10 @@ assign [class="Steam"] workspace 9
 
 assign [class="Cockatrice"] workspace 9
 
+# Other
+
+assign [class="Anki"] workspace 9
+
 #=======================================#
 #            Volume Control             #
 #=======================================#
