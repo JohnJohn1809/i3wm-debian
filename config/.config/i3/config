@@ -130,9 +130,9 @@ for_window [class="^.*"] border pixel 2
 
 # Board Colors
                                                                     
-client.focused_inactive #0d1010 #212121 #d9d9d9 #0d1010 #063340                                                                            
-client.unfocused        #FF0066 #212121 #FF0066 #424242 #000000                                                                            
-client.focused          #000000 #FF0066 #000000 #d9d9d9 #FF0066  
+client.focused_inactive #0d1010 #212121 #d9d9d9 #0d1010 #063340                                                                             
+client.unfocused        #73d216 #212121 #73d216 #424242 #000000                                                                             
+client.focused          #000000 #73d216 #000000 #d9d9d9 #73d216  
 
 #=======================================#
 #          Workspace Settigns           #
@@ -254,12 +254,12 @@ bar {
 colors {
 
         background  #000000
-        statusline  #FF0066
-        separator   #FF0066
+        statusline  #73d216
+        separator   #73d216
  
-        focused_workspace   #FF0066  #FF0066  #000000
+        focused_workspace   #73d216  #73d216  #000000
         active_workspace    #333333  #5f676a  #000000
-        inactive_workspace  #000000  #000000  #FF0066
+        inactive_workspace  #000000  #000000  #73d216
         urgent_workspace    #2f343a  #900000  #FFFFFF
         binding_mode        #2f343a  #900000  #FFFFFF
     }
@@ -359,17 +359,29 @@ exec_always /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
 
 # Use bindcode mode with Num Lock off
 
-# Dust Reloard
+# Dust Reloard (1/End)
 
 bindcode $mod+87 exec /$HOME/.config/i3/scripts/dunst_reload.sh
 
-# Spotify Debug (Need Think in Shortcut Better)
+# Spotify Debug (0/Ins)
 
 bindcode $mod+90 exec /$HOME/.config/i3/scripts/spotify_debug.sh
 
-# Set Wallpaper (The Cmd to apply wallpaper automatically be on Apparence session)
+# Manual Set Wallpaper (2/Down)
 
 bindcode $mod+88 exec /$HOME/.config/i3/scripts/fehbg.sh
+
+# Upgrade (7/Home)
+
+bindcode $mod+79 exec xfce4-terminal -H -e /$HOME/.config/i3/scripts/upgrade.sh
+
+# Poweroff (8/Up)
+
+bindcode $mod+80 exec xfce4-terminal -H -e /$HOME/.config/i3/scripts/poweroff.sh
+
+# Reboot (9/PgUp)
+
+bindcode $mod+81 exec xfce4-terminal -H -e /$HOME/.config/i3/scripts/reboot.sh
 
 #=======================================#
 #                 Test                  #
@@ -470,9 +482,7 @@ bindcode $mod+88 exec /$HOME/.config/i3/scripts/fehbg.sh
 #             Think in Add              #
 #=======================================#
 
-# telegram      (I dont know this)
 
-#set $ico_telegram <span font='Font Awesome'>&#xf1d9;</span> (I dont know this)
 
 #=======================================#
 #           Cool Binds Idea             #
