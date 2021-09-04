@@ -5,16 +5,20 @@
 # If u need mapping your keyboard use in terminal -> xmodmap -pke
 
 #=======================================#
-#             Mod Settings              #
+#             Set Mod Key               #
 #=======================================#
 
-# (Mod1 is Alt / Mod4 is Super (Window Logo))
+# Mod1 is Alt / Mod4 is Super (Window Logo)
 
 set $mod Mod1
 
 #=======================================#
-#             Appearance                #
+#            Window Settings            #
 #=======================================#
+
+# Set Tabbed Mode How Default
+
+workspace_layout tabbed
 
 # Windows Title Alignment
 
@@ -23,14 +27,6 @@ title_align center
 # Windows Title Fonts
 
 font pango:monospace 8
-
-# Wallpaper Set
-
-exec_always ~/.config/i3/scripts/fehbg.sh
-
-#=======================================#
-#        Window Standard Actions        #
-#=======================================#
 
 # Use Mouse+$mod to Drag Floating Windows to Their Wanted Position
 
@@ -42,30 +38,30 @@ bindsym $mod+q kill
 
 # Change Focus
 
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
+bindsym $mod+j        focus left
+bindsym $mod+k        focus down
+bindsym $mod+l        focus up
 bindsym $mod+ccedilla focus right
 
 # Alternatively, You Can Use the Cursor Keys (Action on Tab in Window Modification Topic)
 
-bindsym $mod+Left focus left
-bindsym $mod+Down focus down
-bindsym $mod+Up focus up
+bindsym $mod+Left  focus left
+bindsym $mod+Down  focus down
+bindsym $mod+Up    focus up
 bindsym $mod+Right focus right
 
 # Move Focused Window
 
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
+bindsym $mod+Shift+j        move left
+bindsym $mod+Shift+k        move down
+bindsym $mod+Shift+l        move up
 bindsym $mod+Shift+ccedilla move right
 
 # Alternatively, You Can Use the Cursor Keys
 
-bindsym $mod+Shift+Left move left
-bindsym $mod+Shift+Down move down
-bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Left  move left
+bindsym $mod+Shift+Down  move down
+bindsym $mod+Shift+Up    move up
 bindsym $mod+Shift+Right move right
 
 # Split in Horizontal Orientation
@@ -117,12 +113,8 @@ mode "resize" {
 }
 
 #=======================================#
-#         Window Modification           #
+#            Border Settigns            #
 #=======================================#
-
-# Set Tabbed Mode How Default
-
-workspace_layout tabbed
 
 # Border Pixel Dimensions
 
@@ -132,10 +124,10 @@ for_window [class="^.*"] border pixel 2
                                                                     
 client.focused_inactive #0d1010 #212121 #d9d9d9 #0d1010 #063340                                                                             
 client.unfocused        #73d216 #212121 #73d216 #424242 #000000                                                                             
-client.focused          #000000 #73d216 #000000 #d9d9d9 #73d216  
+client.focused          #000000 #73d216 #000000 #d9d9d9 #73d216
 
 #=======================================#
-#          Workspace Settigns           #
+#           Workspace Settigns          #
 #=======================================#
 
 # Switch to Workspace
@@ -155,7 +147,7 @@ bindsym $mod+0 workspace 10
 
 bindsym Mod4+Right      workspace next
 bindsym Mod4+Left       workspace prev
-bindsym Mod4+Tab      workspace next
+bindsym Mod4+Tab        workspace next
 
 # Switch to Windown With Tab 
 
@@ -174,7 +166,9 @@ bindsym $mod+Shift+8 move container to workspace 8
 bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
 
-# Apps Workspaces Settings
+#=======================================#
+#            Class Settings             #
+#=======================================#
 
 # Web Browser
 
@@ -211,24 +205,6 @@ assign [class="Cockatrice"] workspace 9
 # Other
 
 assign [class="Anki"] workspace 9
-
-#=======================================#
-#            Volume Control             #
-#=======================================#
-
-bindsym XF86AudioRaiseVolume   exec --no-startup-id pactl set-sink-volume 0 +5% 
-bindsym XF86AudioLowerVolume   exec --no-startup-id pactl set-sink-volume 0 -5% 
-bindsym XF86AudioMute          exec --no-startup-id pactl set-sink-mute 0 toggle
-bindsym XF86HomePage           exec --no-startup-id pavucontrol
-
-#=======================================#
-#        Media player controls          #
-#=======================================#
-
-bindsym XF86AudioPlay   exec playerctl play
-bindsym XF86AudioPause  exec playerctl pause
-bindsym XF86AudioNext   exec playerctl next
-bindsym XF86AudioPrev   exec playerctl previous
 
 #=======================================#
 #             Bar Settings              #
@@ -309,15 +285,13 @@ bindsym $mod+b exec i3lock
 #               Auto Run                #
 #=======================================#
 
-# The Cmd to apply wallpaper automatically be on Apparence session
-
 # Web Browser
-
-#exec brave-browser https://www.youtube.com/feed/subscriptions
 
 #exec firefox
 
 #exec flatpak run org.mozilla.firefox
+
+#exec brave-browser https://www.youtube.com/feed/subscriptions
 
 # Text Editor
 
@@ -333,9 +307,9 @@ bindsym $mod+b exec i3lock
 
 # Social
 
-#exec telegram-desktop
-
 #exec discord
+
+#exec telegram-desktop
 
 # Dunst
 
@@ -353,6 +327,10 @@ exec_always compton --config ~/.config/compton/compton.conf
 
 exec_always /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
 
+# Auto Wallpaper Set
+
+exec_always ~/.config/i3/scripts/fehbg.sh
+
 #=======================================#
 #               Scripts                 #
 #=======================================#
@@ -367,7 +345,7 @@ bindcode $mod+87 exec /$HOME/.config/i3/scripts/dunst_reload.sh
 
 bindcode $mod+90 exec /$HOME/.config/i3/scripts/spotify_debug.sh
 
-# Manual Set Wallpaper (2/Down)
+# Manual Wallpaper Set (2/Down)
 
 bindcode $mod+88 exec /$HOME/.config/i3/scripts/fehbg.sh
 
@@ -384,11 +362,29 @@ bindcode $mod+80 exec xfce4-terminal -H -e /$HOME/.config/i3/scripts/poweroff.sh
 bindcode $mod+81 exec xfce4-terminal -H -e /$HOME/.config/i3/scripts/reboot.sh
 
 #=======================================#
+#            Volume Control             #
+#=======================================#
+
+bindsym XF86AudioRaiseVolume   exec --no-startup-id pactl set-sink-volume 0 +5% 
+bindsym XF86AudioLowerVolume   exec --no-startup-id pactl set-sink-volume 0 -5% 
+bindsym XF86AudioMute          exec --no-startup-id pactl set-sink-mute 0 toggle
+bindsym XF86HomePage           exec --no-startup-id pavucontrol
+
+#=======================================#
+#         Media player controls         #
+#=======================================#
+
+bindsym XF86AudioPlay   exec playerctl play
+bindsym XF86AudioPause  exec playerctl pause
+bindsym XF86AudioNext   exec playerctl next
+bindsym XF86AudioPrev   exec playerctl previous
+
+#=======================================#
 #                 Test                  #
 #=======================================#
- 
 
- 
+
+
 #=======================================#
 #                Themes                 #
 #=======================================#
@@ -419,6 +415,12 @@ bindcode $mod+81 exec xfce4-terminal -H -e /$HOME/.config/i3/scripts/reboot.sh
 #client.unfocused        #FF0066 #212121 #FF0066 #424242 #000000                                                                            
 #client.focused          #000000 #FF0066 #000000 #d9d9d9 #FF0066
 
+# Board Colors
+                                                                    
+#client.focused_inactive #0d1010 #212121 #d9d9d9 #0d1010 #063340                                                                             
+#client.unfocused        #FF0066 #212121 #FF0066 #424242 #000000                                                                             
+#client.focused          #000000 #FF0066 #000000 #d9d9d9 #FF0066
+
 # Dark Green (For Mint Users)
 
 # Bar
@@ -441,6 +443,12 @@ bindcode $mod+81 exec xfce4-terminal -H -e /$HOME/.config/i3/scripts/reboot.sh
                                                                     
 #client.focused_inactive #0d1010 #212121 #d9d9d9 #0d1010 #063340                                                                            
 #client.unfocused        #73d216 #212121 #73d216 #424242 #000000                                                                            
+#client.focused          #000000 #73d216 #000000 #d9d9d9 #73d216
+
+# Board Colors
+
+#client.focused_inactive #0d1010 #212121 #d9d9d9 #0d1010 #063340                                                                             
+#client.unfocused        #73d216 #212121 #73d216 #424242 #000000                                                                             
 #client.focused          #000000 #73d216 #000000 #d9d9d9 #73d216
 
 # Dark Orange (For Ubuntu Users)
@@ -477,18 +485,6 @@ bindcode $mod+81 exec xfce4-terminal -H -e /$HOME/.config/i3/scripts/reboot.sh
 #keycode  90 = KP_Insert KP_0 KP_Insert KP_0
 #keycode  91 = KP_Delete KP_Separator KP_Delete KP_Separator
 #keycode  92 = ISO_Level3_Shift NoSymbol ISO_Level3_Shift
-
-#=======================================#
-#             Think in Add              #
-#=======================================#
-
-
-
-#=======================================#
-#           Cool Binds Idea             #
-#=======================================#
-
-
 
 #=======================================#
 #                 End                   #
