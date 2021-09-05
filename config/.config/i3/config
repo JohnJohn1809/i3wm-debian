@@ -122,9 +122,11 @@ for_window [class="^.*"] border pixel 2
 
 # Board Colors
                                                                     
-client.focused_inactive #0d1010 #212121 #d9d9d9 #0d1010 #063340                                                                             
-client.unfocused        #73d216 #212121 #73d216 #424242 #000000                                                                             
-client.focused          #000000 #73d216 #000000 #d9d9d9 #73d216
+client.focused          #2D303B #4C7899 #FFFFFF #2E9EF4   #4C7899
+client.focused_inactive #4C7899 #2D303B #C4CBD4 #484E50   #5F676A
+client.unfocused        #4C7899 #2D303B #C4CBD4 #292D2E   #222222
+client.urgent           #2F343A #900000 #FFFFFF #900000   #900000
+client.placeholder      #000000 #0C0C0C #FFFFFF #000000   #0C0C0C
 
 #=======================================#
 #           Workspace Settigns          #
@@ -229,15 +231,15 @@ bar {
 
 colors {
 
-        background  #000000
-        statusline  #73d216
-        separator   #73d216
+        background #2D303B
+        statusline #C4CBD4
+        separator  #2D303B
  
-        focused_workspace   #73d216  #73d216  #000000
-        active_workspace    #333333  #5f676a  #000000
-        inactive_workspace  #000000  #000000  #73d216
-        urgent_workspace    #2f343a  #900000  #FFFFFF
-        binding_mode        #2f343a  #900000  #FFFFFF
+        focused_workspace  #4C7899 #4C7899 #C4CBD4
+        active_workspace   #2D303B #2D303B #C4CBD4
+        inactive_workspace #2D303B #2D303B #C4CBD4
+        urgent_workspace   #2F343A #900000 #FFFFFF
+        binding_mode       #2F343A #900000 #FFFFFF
     }
 }
 
