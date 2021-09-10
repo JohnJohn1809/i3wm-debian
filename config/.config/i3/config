@@ -165,7 +165,29 @@ bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
 
 #=======================================#
-#            Class Settings             #
+#           Floating Settings           #
+#=======================================#
+
+for_window [title="GParted"] floating enable resize set 900 600
+
+for_window [title="Calculator"] floating enable
+
+for_window [title="Volume Control"] floating enable resize set 900 500
+
+for_window [title="Disks"] floating enable resize set 900 600
+
+for_window [title="Archive Manager"] floating enable resize set 900 600
+
+for_window [title="Task Manager"] floating enable resize set 900 600
+
+for_window [class="Lxappearance"] floating enable resize set 900 600
+
+#for_window [title="Terminal"] floating enable resize set 800 500
+
+#for_window [title="Blanket"] floating enable
+
+#=======================================#
+#            Class Assingn              #
 #=======================================#
 
 # Web Browser
@@ -217,7 +239,7 @@ bar {
         
         status_command i3status -c /$HOME/.config/i3/i3status.conf
 
-        font pango:Font Awesome 5 Brands 9
+        font pango: Brands 9
 
         workspace_buttons yes
 
@@ -287,9 +309,9 @@ bindsym $mod+b exec i3lock
 
 #exec firefox
 
-#exec flatpak run org.mozilla.firefox
+exec flatpak run org.mozilla.firefox
 
-#exec brave-browser https://www.youtube.com/feed/subscriptions
+exec brave-browser https://www.youtube.com/feed/subscriptions
 
 # Text Editor
 
@@ -308,6 +330,8 @@ bindsym $mod+b exec i3lock
 #exec discord
 
 #exec telegram-desktop
+
+exec flatpak run org.telegram.desktop
 
 # Dunst
 
