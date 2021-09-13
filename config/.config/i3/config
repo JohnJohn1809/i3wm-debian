@@ -281,6 +281,10 @@ bindsym $mod+shift+r mode "resize"
 
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
+# Switch User
+
+bindsym $mod+Shift+s exec dm-tool switch-to-greeter
+
 #=======================================#
 #            Apps Commands              #
 #=======================================#
@@ -311,15 +315,15 @@ bindsym $mod+b exec i3lock
 
 exec flatpak run org.mozilla.firefox
 
-exec brave-browser https://www.youtube.com/feed/subscriptions
+#exec brave-browser https://www.youtube.com/feed/subscriptions
 
 # Text Editor
 
-#exec geany
+exec geany
 
 # File Manager
 
-#exec thunar
+exec thunar
 
 # Spotify
 
