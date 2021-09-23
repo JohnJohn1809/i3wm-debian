@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-# Appearance
-
 # Uncategorized
 
 sudo apt install rofi -y
