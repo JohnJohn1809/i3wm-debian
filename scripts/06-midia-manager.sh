@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-# Midia Manager
+# Image Viewer
+
+sudo apt install eog -y
 
 # Videos
 
