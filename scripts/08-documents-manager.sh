@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-# Documents Manager
-
 # Office
 
 sudo apt install libreoffice -y
