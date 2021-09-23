@@ -4,12 +4,13 @@
 
 # Office
 
-#sudo apt install libreoffice-base -y
-#sudo apt install libreoffice-base-drivers -y
-#sudo apt install libreoffice-grammarcheck-en-gb -y
-#sudo apt install libreoffice-grammarcheck-en-us -y
-#sudo apt install libreoffice-grammarcheck-pt-br -y
+sudo apt install libreoffice -y
+sudo apt install libreoffice-l10n-pt-br -y
 
-# Scripts
+# Pdf
+
+sudo apt install atril -y
+
+# Text Editor
 
 sudo apt install geany -y
