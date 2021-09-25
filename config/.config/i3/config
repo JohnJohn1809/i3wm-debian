@@ -194,13 +194,21 @@ for_window [class="Lxappearance"] floating enable resize set 900 600
 
 assign [class="Firefox"] workspace 1
 
-# Text Editor
+assign [class="Brave"] workspace 10
+
+# Text Editor / Document Viewer
 
 assign [class="Xed"] workspace 2
 
 assign [class="Geany"] workspace 2
 
+assign [class="Atril"] workspace 2
+
+assign [class="Simplenote"] workspace 2
+
 assign [class="Apostrophe"] workspace 2
+
+assign [class="LibreOffice"] workspace 2
 
 # File Manager
 
@@ -208,13 +216,11 @@ assign [class="Thunar"] workspace 3
 
 # Social
 
-assign [class="TelegramDesktop"] workspace 10
-
 assign [class="Spotify"] workspace 10
 
 assign [class="discord"] workspace 10
 
-assign [class="Brave"] workspace 10
+assign [class="TelegramDesktop"] workspace 10
 
 # Games
 
@@ -315,7 +321,7 @@ bindsym $mod+b exec i3lock
 
 exec flatpak run org.mozilla.firefox
 
-#exec brave-browser https://www.youtube.com/feed/subscriptions
+exec brave-browser https://www.youtube.com/feed/subscriptions
 
 # Text Editor
 
@@ -323,7 +329,7 @@ exec geany
 
 # File Manager
 
-exec thunar
+#exec thunar
 
 # Spotify
 
