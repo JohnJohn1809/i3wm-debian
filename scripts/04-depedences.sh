@@ -13,3 +13,8 @@ sudo apt install libnotify-bin -y
 
 sudo apt install mtools -y
 
+# Language Pack
+
+sudo apt install task-english -y
+
+sudo apt install task-brazilian-portuguese -y
