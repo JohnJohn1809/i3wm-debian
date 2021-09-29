@@ -22,3 +22,7 @@ cd /$HOME/.config/i3/scripts/
 
 chmod +x chmod.sh dunst_reload.sh fehbg.sh poweroff.sh reboot.sh spotify_debug.sh upgrade.sh
 
+# Grub
+
+sudo update-grub
+
