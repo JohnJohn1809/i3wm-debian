@@ -7,6 +7,9 @@ sudo apt install feh -y
 sudo apt install lxappearance -y
 sudo apt install dunst -y
 sudo apt install compton -y
+sudo apt install lightdm -y
+#sudo apt install lightdm-gtk-greeter -y
+sudo apt install slick-greeter -y
 
 # Fonts
 
