@@ -20,6 +20,10 @@ sudo apt install fonts-font-awesome -y
 sudo apt install arc-theme -y
 sudo apt install papirus-icon-theme -y
 
+# Apply Plymouth
+
+sudo plymouth-set-default-theme -R joy
+
 # Local Gtk Theme
 
 #cd -
