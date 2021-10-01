@@ -367,6 +367,10 @@ exec_always /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
 
 exec_always ~/.config/i3/scripts/fehbg.sh
 
+# Layouts
+
+exec --no-startup-id "i3-msg 'workspace 10; append_layout ~/.config/i3/layouts/workspace_10.json'"
+
 #=======================================#
 #               Scripts                 #
 #=======================================#
