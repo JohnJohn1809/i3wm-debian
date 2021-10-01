@@ -20,10 +20,6 @@ flatpak install flathub org.telegram.desktop
 
 flatpak install flathub com.discordapp.Discord
 
-# Sound
-
-flatpak install flathub com.spotify.Client
-
 # Text Edit
 
 flatpak install flathub com.simplenote.Simplenote
