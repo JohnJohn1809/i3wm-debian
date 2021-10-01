@@ -369,7 +369,7 @@ exec_always ~/.config/i3/scripts/fehbg.sh
 
 # Layouts
 
-exec --no-startup-id "i3-msg 'workspace 10; append_layout ~/.config/i3/layouts/workspace_10.json'"
+exec i3-msg 'workspace 10; append_layout ~/.config/i3/layouts/workspace_10.json'
 
 #=======================================#
 #               Scripts                 #
