@@ -187,8 +187,10 @@ for_window [class="Lxappearance"] floating enable resize set 900 600
 #for_window [title="Blanket"] floating enable
 
 #=======================================#
-#            Class Assingn              #
+#           Workspace Assingn           #
 #=======================================#
+
+# U can use xprop cmd in terminal for know class name for window
 
 # Web Browser
 
@@ -214,9 +216,13 @@ assign [class="LibreOffice"] workspace 2
 
 assign [class="Thunar"] workspace 3
 
-# Social
+# Spotify
 
-assign [class="Spotify"] workspace 10
+#assign [class="spotify"] workspace 10
+
+for_window [title="Spotify"] move to workspace 10
+
+# Social
 
 assign [class="discord"] workspace 10
 
@@ -231,6 +237,8 @@ assign [class="Cockatrice"] workspace 9
 # Other
 
 assign [class="Anki"] workspace 9
+
+assign [class="Gimp"] workspace 9
 
 #=======================================#
 #             Bar Settings              #
@@ -317,11 +325,9 @@ bindsym $mod+b exec i3lock
 
 # Web Browser
 
-#exec firefox
-
 exec flatpak run org.mozilla.firefox
 
-exec brave-browser https://www.youtube.com/feed/subscriptions
+exec brave-browser https://www.youtube.com/feed/subscriptions https://www.hltv.org/matches
 
 # Text Editor
 
@@ -329,17 +335,15 @@ exec geany
 
 # File Manager
 
-#exec thunar
+exec thunar
 
 # Spotify
 
-#exec spotify
+exec spotify Try --no-zygote
 
 # Social
 
-#exec discord
-
-#exec telegram-desktop
+exec flatpak run com.discordapp.Discord
 
 exec flatpak run org.telegram.desktop
 
