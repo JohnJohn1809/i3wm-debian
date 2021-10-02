@@ -26,6 +26,8 @@ flatpak install flathub com.simplenote.Simplenote
 
 flatpak install flathub org.gnome.gitlab.somas.Apostrophe
 
+flatpak install org.gnome.gitlab.somas.Apostrophe.Plugin.TexLive
+
 # Image Editor
 
 flatpak install flathub org.gimp.GIMP
