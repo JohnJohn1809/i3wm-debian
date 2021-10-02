@@ -276,7 +276,7 @@ colors {
 }
 
 #=======================================#
-#             i3 Settings               #
+#             i3 Commands               #
 #=======================================#
 
 # Reload the Configuration File
@@ -299,6 +299,10 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 
 bindsym $mod+Shift+s exec dm-tool switch-to-greeter
 
+# i3lock
+
+bindsym $mod+shift+d exec i3lock -f -i ~/.config/i3/i3lock/background/background.png
+
 #=======================================#
 #            Apps Commands              #
 #=======================================#
@@ -314,10 +318,6 @@ bindsym $mod+d exec rofi -show drun -show-icons
 # Screenshots
 
 bindsym Print exec xfce4-screenshooter
-
-# i3lock
-
-bindsym $mod+shift+d exec i3lock -f -i ~/.config/i3/i3lock/background/background.png
 
 #=======================================#
 #               Auto Run                #
