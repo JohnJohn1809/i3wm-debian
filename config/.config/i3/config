@@ -317,7 +317,7 @@ bindsym Print exec xfce4-screenshooter
 
 # i3lock
 
-bindsym $mod+b exec i3lock
+bindsym $mod+shift+d exec i3lock -f -i ~/.config/i3/i3lock/background/background.png
 
 #=======================================#
 #               Auto Run                #
