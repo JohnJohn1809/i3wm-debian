@@ -80,6 +80,8 @@ Sugestão: baixe em zip esse repositório e leia cada script um por um e veja o 
 - [Curso GNU Linux By Professor Kretcheu (YouTube)](https://www.youtube.com/user/kretcheu2001/playlists)
 
 #### Outros
+- [Arc-Dark Color Palette](https://www.color-hex.com/color-palette/36646)
+
 - [HTML Cores (Por Nome)](https://www.w3schools.com/colors/colors_names.asp)
 - [HTML Cores (Por Grupo)](https://www.w3schools.com/colors/colors_groups.asp)
 - [Fontes Awesome Cheatsheet](https://fontawesome.com/v4.7/cheatsheet/)
