@@ -41,3 +41,5 @@ flatpak install flathub com.github.maoschanz.drawing
 flatpak install flathub net.ankiweb.Anki
 
 flatpak install flathub com.rafaelmardojai.Blanket
+
+flatpak install flathub org.x.Warpinator
