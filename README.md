@@ -56,7 +56,7 @@ Sugestão: baixe em zip esse repositório e leia cada script um por um e veja o 
 [Como Customizar o ROFI, Like a FOSS! By Marcos - Terminal Root](https://www.youtube.com/watch?v=cDDMrUwrce0)
 
 #### Xfce Terminal
-[xfce4-terminal Syntax](https://man.cx/xfce4-terminal(1)
+[xfce4-terminal Syntax](https://man.cx/xfce4-terminal)
 
 #### LightDM
 - [Install and customize LightDM on Arch Linux By Kasra](https://www.youtube.com/watch?v=Z5FEHBhA0Jg)
