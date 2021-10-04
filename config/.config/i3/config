@@ -240,6 +240,8 @@ assign [class="Anki"] workspace 9
 
 assign [class="Gimp"] workspace 9
 
+assign [class="Warpinator"] workspace 9
+
 #=======================================#
 #             Bar Settings              #
 #=======================================#
