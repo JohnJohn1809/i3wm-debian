@@ -325,30 +325,6 @@ bindsym Print exec xfce4-screenshooter
 #               Auto Run                #
 #=======================================#
 
-# Web Browser
-
-exec flatpak run org.mozilla.firefox
-
-exec brave-browser https://www.youtube.com/feed/subscriptions https://www.hltv.org/matches
-
-# Text Editor
-
-exec geany
-
-# File Manager
-
-exec thunar
-
-# Spotify
-
-exec spotify Try --no-zygote
-
-# Social
-
-exec flatpak run com.discordapp.Discord
-
-exec flatpak run org.telegram.desktop
-
 # Dunst
 
 exec --no-startup-id dunst
@@ -369,27 +345,27 @@ exec_always /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
 
 exec_always ~/.config/i3/scripts/fehbg.sh
 
-# Layouts
-
-exec i3-msg 'workspace 10; append_layout ~/.config/i3/layouts/workspace_10.json'
-
 #=======================================#
 #               Scripts                 #
 #=======================================#
 
 # Use bindcode mode with Num Lock off
 
-# Dust Reloard (1/End)
+# Startup (0/Ins)
 
-bindcode $mod+87 exec /$HOME/.config/i3/scripts/dunst_reload.sh
+bindcode $mod+90 exec /$HOME/.config/i3/scripts/startup.sh
 
-# Spotify Debug (0/Ins)
+# Spotify Debug (1/End)
 
-bindcode $mod+90 exec /$HOME/.config/i3/scripts/spotify_debug.sh
+bindcode $mod+87 exec /$HOME/.config/i3/scripts/spotify_debug.sh
 
-# Manual Wallpaper Set (2/Down)
+# Dust Reloard (2/Down)
 
-bindcode $mod+88 exec /$HOME/.config/i3/scripts/fehbg.sh
+bindcode $mod+88 exec /$HOME/.config/i3/scripts/dunst_reload.sh
+
+# Manual Wallpaper Set (3/PagDn)
+
+bindcode $mod+89 exec /$HOME/.config/i3/scripts/fehbg.sh
 
 # Upgrade (7/Home)
 
