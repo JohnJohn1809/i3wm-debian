@@ -242,6 +242,8 @@ assign [class="Gimp"] workspace 9
 
 assign [class="Warpinator"] workspace 9
 
+assign [class="KeePassXC"] workspace 9
+
 #=======================================#
 #             Bar Settings              #
 #=======================================#
