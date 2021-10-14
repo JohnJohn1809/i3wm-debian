@@ -3,6 +3,7 @@
 sudo apt install gnome-calculator -y
 sudo apt install numlockx -y
 sudo apt install neofetch -y
+sudo apt install keepassxc -y
 
 # Spotify
 
