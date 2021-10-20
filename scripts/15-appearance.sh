@@ -28,13 +28,13 @@ sudo plymouth-set-default-theme -R joy
 
 # Local Gtk Theme
 
-#cd -
-#cd gtk-themes
-#cd icons
-#sudo tar xvzf capitaine-cursor-dark-r4.tar.gz -C /usr/share/icons/
-#cd -
-#cd -
-#cd scripts
+cd -
+cd gtk-themes
+cd icons
+sudo tar xvzf capitaine-cursor-dark-r4.tar.gz -C /usr/share/icons/
+cd -
+cd -
+cd scripts
 
 # Fake Adwaita Theme for Fix Mouse in Flatpak Apps
 
