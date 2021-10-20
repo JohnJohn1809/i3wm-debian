@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Telegram
+icon=telegram
+Type=Application
+Categories=Social;InstantMessaging;
+GenericName=Internet Messenger
+Comment=Internet Messenger
+StartupWMClass=telegram
+Terminal=false
+Exec=/home/johni3/.config/i3/appimage/telegram/exec/telegram
+#Exec=~/.config/i3/appimage/telegram/exec/telegram
+#Exec=$HOME/.config/i3/appimage/telegram/exec/telegram
+
