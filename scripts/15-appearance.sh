@@ -9,8 +9,8 @@ sudo apt install dunst -y
 sudo apt install compton -y
 sudo apt install grub-customizer -y
 sudo apt install lightdm -y
-#sudo apt install lightdm-gtk-greeter -y
-sudo apt install slick-greeter -y
+sudo apt install lightdm-gtk-greeter -y
+#sudo apt install slick-greeter -y
 sudo apt install plymouth -y
 
 # Fonts
@@ -38,10 +38,10 @@ sudo plymouth-set-default-theme -R joy
 
 # Fake Adwaita Theme for Fix Mouse in Flatpak Apps
 
-cd -
-cd gtk-themes
-cd icons
-sudo cp -r Adwaita /usr/share/icons/
-cd -
-cd -
-cd scripts
+#cd -
+#cd gtk-themes
+#cd icons
+#sudo cp -r Adwaita /usr/share/icons/
+#cd -
+#cd -
+#cd scripts
