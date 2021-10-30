@@ -2,6 +2,8 @@
 
 # Layout
 
+i3-msg 'workspace 3; append_layout ~/.config/i3/layouts/workspace_03.json'
+
 i3-msg 'workspace 10; append_layout ~/.config/i3/layouts/workspace_10.json'
 
 # Web Browser
@@ -16,7 +18,7 @@ i3-msg 'exec --no-startup-id geany'
 
 # File Manager
 
-i3-msg 'exec --no-startup-id thunar'
+i3-msg 'exec --no-startup-id thunar ~/Downloads/ ~/Documents/ /mnt/1BCDE0CC71679839/John/'
 
 # Social
 
