@@ -6,24 +6,26 @@ i3-msg 'workspace 10; append_layout ~/.config/i3/layouts/workspace_10.json'
 
 # Web Browser
 
-flatpak run org.mozilla.firefox
+i3-msg 'exec --no-startup-id flatpak run org.mozilla.firefox'
 
-brave-browser https://www.youtube.com/feed/subscriptions https://www.hltv.org/matches
+i3-msg 'exec --no-startup-id brave-browser https://www.youtube.com/feed/subscriptions https://www.hltv.org/matches'
 
 # Text Editor
 
-geany
+i3-msg 'exec --no-startup-id geany'
 
 # File Manager
 
-thunar
-
-# Spotify
-
-spotify Try --no-zygote
+i3-msg 'exec --no-startup-id thunar'
 
 # Social
 
-flatpak run com.discordapp.Discord
+i3-msg 'exec --no-startup-id ~/.appimage/telegram/exec/telegram'
 
-flatpak run org.telegram.desktop
+#i3-msg 'exec --no-startup-id flatpak run org.telegram.desktop'
+
+i3-msg 'exec --no-startup-id flatpak run com.discordapp.Discord'
+
+# Spotify
+
+i3-msg 'exec --no-startup-id spotify Try --no-zygote'
