@@ -1,0 +1,79 @@
+// vim:ts=4:sw=4:et
+{
+    // tabbed split container with 3 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "tabbed",
+    "marks": [],
+    "percent": 1,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 728,
+               "width": 1362,
+               "x": 0,
+               "y": 0
+            },
+            "marks": [],
+            "name": "Thunar",
+            "percent": 0.333333333333333,
+            "swallows": [
+               {
+               "class": "^Thunar$",
+               "instance": "^thunar$"
+               // "window_role": "^Thunar\\-1635628369\\-3825486444$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 728,
+               "width": 1362,
+               "x": 0,
+               "y": 0
+            },
+            "marks": [],
+            "name": "Thunar",
+            "percent": 0.333333333333333,
+            "swallows": [
+               {
+               "class": "^Thunar$",
+               "instance": "^thunar$"
+               // "window_role": "^Thunar\\-1635628369\\-3923400478$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 728,
+               "width": 1362,
+               "x": 0,
+               "y": 0
+            },
+            "marks": [],
+            "name": "Thunar",
+            "percent": 0.333333333333333,
+            "swallows": [
+               {
+               "class": "^Thunar$",
+               "instance": "^thunar$"
+               // "window_role": "^Thunar\\-1635628370\\-213034312$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
