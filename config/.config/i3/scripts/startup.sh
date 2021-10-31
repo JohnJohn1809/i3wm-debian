@@ -22,9 +22,7 @@ i3-msg 'exec --no-startup-id thunar ~/Downloads/ ~/Documents/ /mnt/1BCDE0CC71679
 
 # Social
 
-i3-msg 'exec --no-startup-id ~/.appimage/telegram/exec/telegram'
-
-#i3-msg 'exec --no-startup-id flatpak run org.telegram.desktop'
+i3-msg 'exec --no-startup-id flatpak run org.telegram.desktop'
 
 i3-msg 'exec --no-startup-id flatpak run com.discordapp.Discord'
 
