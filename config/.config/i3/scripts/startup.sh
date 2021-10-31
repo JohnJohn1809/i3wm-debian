@@ -31,3 +31,7 @@ i3-msg 'exec --no-startup-id flatpak run com.discordapp.Discord'
 # Spotify
 
 i3-msg 'exec --no-startup-id spotify Try --no-zygote'
+
+# Anki
+
+i3-msg 'exec --no-startup-id flatpak run net.ankiweb.Anki'
