@@ -1,7 +1,4 @@
 [Configuration]
-ColorBackground=#3c953c953c95
-ColorCursor=#867f81c281c2
-ColorPalette=#000000;#cc0000;#4e9a06;#c4a000;#3465a4;#75507b;#06989a;#d3d7cf;#555753;#ef2929;#8ae234;#fce94f;#739fcf;#ad7fa8;#34e2e2;#eeeeec
 FontName=Monospace 10
 MiscAlwaysShowTabs=FALSE
 MiscBell=FALSE
@@ -30,6 +27,7 @@ MiscSlimTabs=FALSE
 MiscNewTabAdjacent=FALSE
 MiscSearchDialogOpacity=100
 MiscShowUnsafePasteDialog=TRUE
-BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
-BackgroundDarkness=0.600000
+BackgroundDarkness=1.000000
+ColorForeground=#c4c4cbcbd4d4
+ColorBackground=#2d2d302f3b3b
 
