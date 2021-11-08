@@ -371,6 +371,10 @@ bindcode $mod+88 exec /$HOME/.config/i3/scripts/dunst_reload.sh
 
 bindcode $mod+89 exec /$HOME/.config/i3/scripts/fehbg.sh
 
+# Working Setup (4/Left)
+
+bindcode $mod+83 exec /$HOME/.config/i3/scripts/working.sh
+
 # Upgrade (7/Home)
 
 bindcode $mod+79 exec xfce4-terminal -H -e /$HOME/.config/i3/scripts/upgrade.sh
