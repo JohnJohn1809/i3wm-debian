@@ -20,7 +20,7 @@ cp -f /etc/xdg/dunst/dunstrc ~/.config/dunst/dunstrc
 
 cd /$HOME/.config/i3/scripts/
 
-chmod +x dunst_reload.sh fehbg.sh poweroff.sh reboot.sh spotify_debug.sh startup.sh upgrade.sh
+chmod +x chmod.sh dunst_reload.sh fehbg.sh poweroff.sh reboot.sh spotify_debug.sh startup.sh upgrade.sh working.sh
 
 # Grub
 
