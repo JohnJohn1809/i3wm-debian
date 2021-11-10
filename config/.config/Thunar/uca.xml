@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>edit-delete</icon>
+	<name>Delete</name>
+	<unique-id>1636581942912363-1</unique-id>
+	<command>rm -rf %F</command>
+	<description></description>
+	<patterns>*</patterns>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<unique-id>1636572518603432-1</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<description>Open terminal</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>folder-blue</icon>
+	<name>Open thunar as root here</name>
+	<unique-id>1636581216277070-1</unique-id>
+	<command>pkexec thunar %f</command>
+	<description>Open thunar how root</description>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+</actions>
