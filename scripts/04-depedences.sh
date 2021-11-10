@@ -12,6 +12,7 @@ sudo apt install libnotify-bin -y
 # Gparted
 
 sudo apt install mtools -y
+sudo apt install exfatprogs -y
 
 # Firmware
 
