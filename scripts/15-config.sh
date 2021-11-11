@@ -2,6 +2,12 @@
 
 mkdir -p $HOME/.config
 
+# Dunst
+
+cp -f /etc/xdg/dunst/dunstrc ~/.config/dunst/dunstrc
+
+# All
+
 cp -R /$HOME/i3wm-debian/config/.config/* "/$HOME/.config/"
 
 cp -R /$HOME/i3wm-debian/config/home/* "/$HOME/"
@@ -11,10 +17,6 @@ sudo cp -R /$HOME/i3wm-debian/config/boot/* "/boot/"
 sudo cp -R /$HOME/i3wm-debian/config/etc/* "/etc/"
 
 sudo cp -R /$HOME/i3wm-debian/config/usr/* "/usr/"
-
-# Dunst
-
-cp -f /etc/xdg/dunst/dunstrc ~/.config/dunst/dunstrc
 
 # Other
 
