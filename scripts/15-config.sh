@@ -6,11 +6,11 @@ cp -R /$HOME/i3wm-debian/config/.config/* "/$HOME/.config/"
 
 cp -R /$HOME/i3wm-debian/config/home/* "/$HOME/"
 
-cp -R /$HOME/i3wm-debian/config/boot/* "/boot/"
+sudo cp -R /$HOME/i3wm-debian/config/boot/* "/boot/"
 
-cp -R /$HOME/i3wm-debian/config/etc/* "/etc/"
+sudo cp -R /$HOME/i3wm-debian/config/etc/* "/etc/"
 
-cp -R /$HOME/i3wm-debian/config/usr/* "/usr/"
+sudo cp -R /$HOME/i3wm-debian/config/usr/* "/usr/"
 
 # Dunst
 
