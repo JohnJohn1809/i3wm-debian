@@ -22,6 +22,10 @@ sudo apt install fonts-font-awesome -y
 sudo apt install arc-theme -y
 sudo apt install papirus-icon-theme -y
 
+# Papirus LibreOffice Theme
+
+wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-libreoffice-theme/master/install-papirus-root.sh | sh
+
 # Flatpak Themes
 
 flatpak install org.gtk.Gtk3theme.Arc              
