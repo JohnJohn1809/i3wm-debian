@@ -1,10 +1,37 @@
-### Sobre o Repositório i3wm-Debian
+### Sobre o Repositório
 Este é um repositório para uso pessoal, feito por um usuário comum baseado no [repositório](https://github.com/debxp/duo-scripts/tree/master/buster-i3) feito por [Blau Araujo](https://gitlab.com/blau_araujo).
 
-[Versão Atualizada do Repositório do Blau Araujo](https://gitlab.com/blau_araujo/debian-scripts)
+- [Versão atualizada do repositório do Blau Araujo](https://gitlab.com/blau_araujo/debian-scripts)
+
+### Observações
+1) Não use esse repositório na sua pós instalação, apenas tenha-o como modelo para fazer os seus scripts, ou adapte os scripts conforme seu uso.
+
+2) Essa pós instalação foi pensada para ser usada após uma instalação da iso minima do debian sem instalar ou ter qualquer tipo de desktop envelopment pré instalado.
+
+3) Uso debian testing e altero a sources.list atráves dos scritps, adiciono os repositórios contrib e no-free. Também adiciono o suporte a flatpaks. Leia bem os scripts, algumas coisas não podem agradar a todos.
+
+4) Meus scripts não tem nada demais, são apenas linhas com "sudo apt install". Existe formas mais elegantes de escrevê-los.
+
+### Sugestão 
+baixe esse repositório, leia cada script um por um e veja o que serve para você; em seguida, faça uma conta no github, ou gitlab, e crie seu próprio repositório.
 
 ### Como Usar
-Após a instalação mínima (netinst) do Debian baixe o git, clone o repositório, navegue até a pasta "Scripts" e execute os scripts.
+Após a instalação do debian instale o pacote `git` e `sudo`; depois adicione seu usuário ao grupo sudo e reinicie o sistema.
+
+```
+su -
+apt install git -y && apt install sudo -y
+usermod -aG sudo seu-usuário
+systemctl reboot
+```
+
+Agora clone o repositório, navegue até a pasta "scripts" usando o comando `cd` e execute os scripts.
+
+```
+Se for no github -> git clone https://github.com/seu-usuário-git/nome-do-seu-repositorio.git
+
+Se for no gitlab -> git clone https://gitlab.com/seu-usuário-git/nome-do-seu-repositorio.git
+```
 
 ### i3wm-Debian Background
 Caso queira entender a anatomia do repositório e o processo de instalação do qual ele faz parte recomendo ver as vídeo aulas "Uma instalação super mínima do Debian Buster - PT1" e "Instalações personalizadas no Debian Buster - PT3: i3wm".
@@ -16,13 +43,6 @@ Caso queira entender a anatomia do repositório e o processo de instalação do 
 #### YouTube
 - [Uma instalação super mínima do Debian Buster - PT1](https://www.youtube.com/watch?v=V98FeIb4Yvgt)
 - [Instalações personalizadas no Debian Buster - PT3: i3wm](https://www.youtube.com/watch?v=zo37Ebx2nAk)
-
-### Notas
-Não use esse repositório na sua pós instalação, apenas tenha-o como modelo para fazer os seus scripts, ou, adapte os scripts conforme seu uso.
-
-*"Meus scripts não tem nada demais, são apenas linhas com "sudo apt install", existe formas mais elegantes de escrevê-los."*
-
-Sugestão: baixe em zip esse repositório e leia cada script um por um e veja o que serve para você; em seguida faça uma conta no GitHub ou GitLab e crie seu próprio repositório. Não é difícil, na verdade é bastante acessível para qualquer um.
 
 ### Screenshots
 
