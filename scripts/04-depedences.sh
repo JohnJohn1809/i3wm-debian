@@ -16,4 +16,5 @@ sudo apt install exfatprogs -y
 
 # Firmware
 
+sudo apt-get install firmware-realtek -y
 sudo apt install firmware-linux -y
