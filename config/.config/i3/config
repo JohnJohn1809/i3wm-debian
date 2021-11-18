@@ -218,9 +218,7 @@ assign [class="Thunar"] workspace 3
 
 # Spotify
 
-#assign [class="spotify"] workspace 10
-
-for_window [title="Spotify"] move to workspace 10
+assign [class="spotify"] workspace 10
 
 # Social
 
@@ -355,6 +353,8 @@ exec_always ~/.config/i3/scripts/fehbg.sh
 
 # Use bindcode mode with Num Lock off
 
+# For make a layout paste in terminal -> i3-save-tree --workspace * > /you/path/layout_name.json | enter in (*) with workspace number that you wanna save
+
 # Main Startup (0/Ins)
 
 bindcode $mod+90 exec /$HOME/.config/i3/scripts/startup.sh
@@ -414,6 +414,10 @@ bindsym XF86AudioPrev   exec playerctl previous
 #=======================================#
 #                Backup                 #
 #=======================================#
+
+# Class
+
+#for_window [title="Spotify"] move to workspace 10
 
 # Polybar
 
