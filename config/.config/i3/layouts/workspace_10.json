@@ -85,8 +85,8 @@
             "percent": 0.25,
             "swallows": [
                {
-                "class": "^Spotify",
-                "instance": "^spotify"
+                "class": "^Spotify$",
+                "instance": "^spotify$"
                }
             ],
             "type": "con"
