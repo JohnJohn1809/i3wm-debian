@@ -1,5 +1,6 @@
 {
     // tabbed split container with 4 children
+    // switch the spotify class and instance if no work
     "border": "normal",
     "floating": "auto_off",
     "layout": "tabbed",
@@ -85,8 +86,10 @@
             "percent": 0.25,
             "swallows": [
                {
-                "class": "^Spotify$",
-                "instance": "^spotify$"
+                //"class": "^Spotify$",
+                //"instance": "^spotify$"
+                "class": "Spotify",
+                "instance": "spotify"
                }
             ],
             "type": "con"
