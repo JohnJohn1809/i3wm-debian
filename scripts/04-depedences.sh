@@ -14,6 +14,10 @@ sudo apt install libnotify-bin -y
 sudo apt install mtools -y
 sudo apt install exfatprogs -y
 
+# ClipGrab
+
+sudo apt install ffmpeg -y
+
 # Firmware
 
 sudo apt-get install firmware-realtek -y
