@@ -10,7 +10,7 @@ i3-msg 'workspace 10; append_layout ~/.config/i3/layouts/workspace_10.json'
 
 # Web Browser
 
-i3-msg 'exec --no-startup-id flatpak run org.mozilla.firefox https://editorasundermann.com.br/livro/96-marx-e-a-hist%C3%B3ria https://editorasundermann.com.br/livro/185-anu%C3%A1rio-estat%C3%ADstico-do-ilaese--2021# https://www.robocore.net/kit-raspberry-pi https://www.filipeflop.com/produto/kit-raspberry-pi-mega/ https://www.ligamagic.com.br/?view=colecao/colecao https://www.reddit.com/r/unixporn/new/ https://gleam.io/pp41G/sorteio-pos-black-november-pc-gamer-terabyteshop'
+i3-msg 'exec --no-startup-id flatpak run org.mozilla.firefox https://gleam.io/pp41G/sorteio-pos-black-november-pc-gamer-terabyteshop http://mythicspoiler.com/newspoilers.html https://editorasundermann.com.br/livro/96-marx-e-a-hist%C3%B3ria https://editorasundermann.com.br/livro/185-anu%C3%A1rio-estat%C3%ADstico-do-ilaese--2021# https://www.robocore.net/kit-raspberry-pi https://www.filipeflop.com/produto/kit-raspberry-pi-mega/ https://www.ligamagic.com.br/?view=colecao/colecao https://www.reddit.com/r/unixporn/new/'
 
 i3-msg 'exec --no-startup-id brave-browser https://www.youtube.com/feed/subscriptions https://www.hltv.org/matches'
 
