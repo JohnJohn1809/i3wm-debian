@@ -238,6 +238,10 @@ assign [class="Anki"] workspace 9
 
 assign [class="Gimp"] workspace 9
 
+assign [class="Drawing"] workspace 9
+
+assign [class="minder"] workspace 9
+
 assign [class="Blanket"] workspace 9
 
 assign [class="ClipGrab"] workspace 9
