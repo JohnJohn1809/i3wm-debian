@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+# Active 32bits support
+
+sudo dpkg --add-architecture i386
+sudo apt update
+sudo apt upgrade -y
+
 # Thunar
 
 sudo apt install gvfs-backends -y
@@ -20,5 +26,5 @@ sudo apt install ffmpeg -y
 
 # Firmware
 
-sudo apt-get install firmware-realtek -y
+sudo apt install firmware-realtek -y
 sudo apt install firmware-linux -y
