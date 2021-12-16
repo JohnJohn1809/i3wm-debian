@@ -8,7 +8,7 @@ Este é um repositório para uso pessoal, feito por um usuário comum baseado no
 
 2) Essa pós instalação foi pensada para ser usada após uma instalação da iso minima do debian sem instalar ou ter qualquer tipo de desktop envelopment pré instalado.
 
-3) Uso debian testing e altero a sources.list atráves dos scritps, adiciono os repositórios contrib e no-free. Também adiciono o suporte a flatpaks. Leia bem os scripts, algumas coisas não podem agradar a todos.
+3) Uso debian testing e altero a sources.list atráves dos scritps, adiciono os repositórios contrib e no-free. Também adiciono o suporte a flatpaks. Leia bem os scripts, algumas coisas podem desagradar alguns.
 
 4) Meus scripts não tem nada demais, são apenas linhas com "sudo apt install". Existe formas mais elegantes de escrevê-los.
 
