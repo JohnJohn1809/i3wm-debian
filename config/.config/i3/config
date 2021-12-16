@@ -244,11 +244,15 @@ assign [class="minder"] workspace 9
 
 assign [class="Blanket"] workspace 9
 
-assign [class="ClipGrab"] workspace 9
-
 assign [class="Warpinator"] workspace 9
 
 assign [class="KeePassXC"] workspace 9
+
+assign [class="ClipGrab"] workspace 9
+
+assign [class="4K Stogram"] workspace 9
+
+assign [class="4K Video Downloader"] workspace 9
 
 #=======================================#
 #             Bar Settings              #
