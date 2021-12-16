@@ -13,7 +13,7 @@ Este é um repositório para uso pessoal, feito por um usuário comum baseado no
 4) Meus scripts não tem nada demais, são apenas linhas com "sudo apt install". Existe formas mais elegantes de escrevê-los.
 
 ### Sugestão 
-baixe esse repositório, leia cada script um por um e veja o que serve para você; em seguida, faça uma conta no github, ou gitlab, e crie seu próprio repositório.
+baixe esse repositório, leia cada script - um por um - e veja o que serve para você; em seguida faça uma conta no github, ou gitlab, e crie seu próprio repositório.
 
 ### Como Usar
 Após a instalação do debian instale o pacote `git` e `sudo`; depois adicione seu usuário ao grupo sudo e reinicie o sistema.
