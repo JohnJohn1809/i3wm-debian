@@ -39,7 +39,7 @@ flatpak install org.gtk.Gtk3theme.Arc-Dark-solid
 
 sudo plymouth-set-default-theme -R joy
 
-# Local Gtk Theme
+# Local Gtk Themes
 
 # Download
 
