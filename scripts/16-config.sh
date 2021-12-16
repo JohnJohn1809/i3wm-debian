@@ -4,7 +4,7 @@
 
 mkdir -p $HOME/.config
 
-mkdir $HOME/Downloads/Telegram
+mkdir $HOME/Downloads/Telegram Desktop
 mkdir $HOME/Downloads/ClipGrab
 mkdir $HOME/Downloads/Mega
 mkdir $HOME/Downloads/Warpinator
