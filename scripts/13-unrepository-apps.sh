@@ -44,13 +44,6 @@ cd $HOME/applications/
 
 rm -rf debs
 
-# Icons
-
-cp -R $HOME/applications/icons/4kstogram/icon.svg "$HOME/applications/other/4kstogram/"
-cp -R $HOME/applications/icons/4kvideodownloader/icon.svg "$HOME/applications/other/4kvideodownloader/"
-
-rm -rf icons
-
 # Shortcuts
 
 cp -R $HOME/applications/shortcuts/* "$HOME/.local/share/applications/"
