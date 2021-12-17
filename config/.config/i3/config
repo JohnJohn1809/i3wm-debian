@@ -369,21 +369,17 @@ exec_always ~/.config/i3/scripts/fehbg.sh
 
 bindcode $mod+90 exec /$HOME/.config/i3/scripts/startup.sh
 
-# Spotify Debug (1/End)
+# Dust Reloard (1/End)
 
-bindcode $mod+87 exec /$HOME/.config/i3/scripts/spotify_debug.sh
+bindcode $mod+87 exec /$HOME/.config/i3/scripts/dunst_reload.sh
 
-# Dust Reloard (2/Down)
+# Manual Wallpaper Set (2/Down)
 
-bindcode $mod+88 exec /$HOME/.config/i3/scripts/dunst_reload.sh
+bindcode $mod+88 exec /$HOME/.config/i3/scripts/fehbg.sh
 
-# Manual Wallpaper Set (3/PagDn)
+# Working Setup (3/PagDn)
 
-bindcode $mod+89 exec /$HOME/.config/i3/scripts/fehbg.sh
-
-# Working Setup (4/Left)
-
-bindcode $mod+83 exec /$HOME/.config/i3/scripts/working.sh
+bindcode $mod+89 exec /$HOME/.config/i3/scripts/working.sh
 
 # Upgrade (7/Home)
 
