@@ -53,7 +53,7 @@ rm -rf icons
 
 # Shortcuts
 
-cp -R $HOME/applications/shortcuts/i3wm-debian/* "$HOME/.local/share/applications/"
+cp -R $HOME/applications/shortcuts/* "$HOME/.local/share/applications/"
 
 rm -rf shortcuts
 
