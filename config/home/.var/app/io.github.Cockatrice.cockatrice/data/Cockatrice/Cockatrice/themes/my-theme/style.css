@@ -1,0 +1,10 @@
+/* NOTE: Bg image */
+QTreeView#deckView {
+	background-attachment: fixed;
+	background-clip: padding;
+	background-image: url(icons/cockatrice_logo.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
