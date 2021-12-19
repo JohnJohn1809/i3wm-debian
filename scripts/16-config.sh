@@ -1,8 +1,15 @@
 #!/bin/sh
 
+cd $HOME
+
+git clone https://github.com/JohnJohn1809/i3wm-dotfiles.git
+
 # Make Folders
 
 mkdir -p $HOME/.config
+
+mkdir $HOME/.var/app/io.github.Cockatrice.cockatrice/data/Cockatrice/Cockatrice/pics/CUSTOM/
+mkdir $HOME/.var/app/io.github.Cockatrice.cockatrice/data/Cockatrice/Cockatrice/themes/my-theme/
 
 mkdir $HOME/Downloads/Mega
 mkdir $HOME/Downloads/ClipGrab
@@ -19,15 +26,19 @@ cp -f /etc/xdg/dunst/dunstrc ~/.config/dunst/dunstrc
 
 # Moving Configs
 
-cp -R $HOME/i3wm-debian/config/.config/* "$HOME/.config/"
+cp -R $HOME/i3wm-dotfiles/config/.config/* "$HOME/.config/"
 
-cp -R $HOME/i3wm-debian/config/home/.gtkrc-2.0 "$HOME"
+cp -R $HOME/i3wm-dotfiles/config/home/.var/app/io.github.Cockatrice.cockatrice/data/Cockatrice/Cockatrice/pics/CUSTOM/* "$HOME/.var/app/io.github.Cockatrice.cockatrice/data/Cockatrice/Cockatrice/pics/CUSTOM/"
 
-sudo cp -R $HOME/i3wm-debian/config/boot/* "/boot/"
+cp -R $HOME/i3wm-dotfiles/config/home/.var/app/io.github.Cockatrice.cockatrice/data/Cockatrice/Cockatrice/themes/my-theme/* "$HOME/.var/app/io.github.Cockatrice.cockatrice/data/Cockatrice/Cockatrice/themes/my-theme/"
 
-sudo cp -R $HOME/i3wm-debian/config/etc/* "/etc/"
+cp -R $HOME/i3wm-dotfiles/config/home/.gtkrc-2.0 "$HOME"
 
-sudo cp -R $HOME/i3wm-debian/config/usr/* "/usr/"
+sudo cp -R $HOME/i3wm-dotfiles/config/boot/* "/boot/"
+
+sudo cp -R $HOME/i3wm-dotfiles/config/etc/* "/etc/"
+
+sudo cp -R $HOME/i3wm-dotfiles/config/usr/* "/usr/"
 
 # Deleting Default Menu Entries
 
@@ -46,8 +57,8 @@ cd $HOME/.config/i3/scripts/
 
 sudo chmod +x chmod.sh dunst_reload.sh fehbg.sh poweroff.sh reboot.sh spotify_debug.sh startup.sh upgrade.sh working.sh
 
+cd $HOME/i3wm-debian/scripts/
+
 # Grub
 
 sudo update-grub
-
-cd $HOME/i3wm-debian/scripts/
