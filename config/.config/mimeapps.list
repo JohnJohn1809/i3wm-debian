@@ -1,8 +1,0 @@
-[Added Associations]
-text/plain=org.gnome.gitlab.somas.Apostrophe.desktop;geany.desktop;
-application/x-shellscript=geany.desktop;
-application/pdf=brave-browser.desktop;
-image/png=feh.desktop;
-
-[Default Applications]
-text/plain=geany.desktop
