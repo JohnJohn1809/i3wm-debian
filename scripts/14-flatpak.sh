@@ -6,8 +6,6 @@ sudo apt install flatpak -y
 
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
-# Apps
-
 # Web Browser
 
 sudo apt remove firefox-esr -y
@@ -33,6 +31,10 @@ flatpak install org.gnome.gitlab.somas.Apostrophe.Plugin.TexLive
 flatpak install flathub org.gimp.GIMP
 
 flatpak install flathub com.github.maoschanz.drawing
+
+# Gaming
+
+flatpak install flathub io.github.Cockatrice.cockatrice
 
 # Other
 
