@@ -10,7 +10,7 @@ wget -c 'https://www.dropbox.com/sh/hw1empijnqnxlfu/AABKge-eUnJJYhzCl7xSqqbma?dl
 
 mv AABKge-eUnJJYhzCl7xSqqbma?dl=0 applications.zip
 
-mkdir applications
+mkdir $HOME/applications/
 
 unzip applications.zip -d $HOME/applications/
 
