@@ -26,19 +26,19 @@ cp -f /etc/xdg/dunst/dunstrc ~/.config/dunst/dunstrc
 
 # Moving Configs
 
-cp -R $HOME/i3wm-dotfiles/config/.config/* "$HOME/.config/"
+cp -R $HOME/i3wm-dotfiles/debian/.config/* "$HOME/.config/"
 
-cp -R $HOME/i3wm-dotfiles/config/home/.var/app/io.github.Cockatrice.cockatrice/data/Cockatrice/Cockatrice/pics/CUSTOM/* "$HOME/.var/app/io.github.Cockatrice.cockatrice/data/Cockatrice/Cockatrice/pics/CUSTOM/"
+cp -R $HOME/i3wm-dotfiles/debian/home/.var/app/io.github.Cockatrice.cockatrice/data/Cockatrice/Cockatrice/pics/CUSTOM/* "$HOME/.var/app/io.github.Cockatrice.cockatrice/data/Cockatrice/Cockatrice/pics/CUSTOM/"
 
-cp -R $HOME/i3wm-dotfiles/config/home/.var/app/io.github.Cockatrice.cockatrice/data/Cockatrice/Cockatrice/themes/my-theme/* "$HOME/.var/app/io.github.Cockatrice.cockatrice/data/Cockatrice/Cockatrice/themes/my-theme/"
+cp -R $HOME/i3wm-dotfiles/debian/home/.var/app/io.github.Cockatrice.cockatrice/data/Cockatrice/Cockatrice/themes/my-theme/* "$HOME/.var/app/io.github.Cockatrice.cockatrice/data/Cockatrice/Cockatrice/themes/my-theme/"
 
-cp -R $HOME/i3wm-dotfiles/config/home/.gtkrc-2.0 "$HOME"
+cp -R $HOME/i3wm-dotfiles/debian/home/.gtkrc-2.0 "$HOME"
 
-sudo cp -R $HOME/i3wm-dotfiles/config/boot/* "/boot/"
+sudo cp -R $HOME/i3wm-dotfiles/debian/boot/* "/boot/"
 
-sudo cp -R $HOME/i3wm-dotfiles/config/etc/* "/etc/"
+sudo cp -R $HOME/i3wm-dotfiles/debian/etc/* "/etc/"
 
-sudo cp -R $HOME/i3wm-dotfiles/config/usr/* "/usr/"
+sudo cp -R $HOME/i3wm-dotfiles/debian/usr/* "/usr/"
 
 # Deleting Default Menu Entries
 
