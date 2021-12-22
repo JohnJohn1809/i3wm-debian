@@ -40,6 +40,10 @@ sudo cp -R $HOME/i3wm-dotfiles/debian/etc/* "/etc/"
 
 sudo cp -R $HOME/i3wm-dotfiles/debian/usr/* "/usr/"
 
+sudo cp -R $HOME/i3wm-dotfiles/debian/usr/* "/usr/"
+
+sudo cp -R $HOME/i3wm-dotfiles/debian/root/.config/* "/root/.config/"
+
 # Deleting Default Menu Entries
 
 cd /usr/share/applications/ 
