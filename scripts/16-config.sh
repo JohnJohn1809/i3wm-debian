@@ -28,9 +28,7 @@ cp -f /etc/xdg/dunst/dunstrc ~/.config/dunst/dunstrc
 
 cp -R $HOME/i3wm-dotfiles/debian/.config/* "$HOME/.config/"
 
-cp -R $HOME/i3wm-dotfiles/debian/home/.var/app/io.github.Cockatrice.cockatrice/data/Cockatrice/Cockatrice/pics/CUSTOM/* "$HOME/.var/app/io.github.Cockatrice.cockatrice/data/Cockatrice/Cockatrice/pics/CUSTOM/"
-
-cp -R $HOME/i3wm-dotfiles/debian/home/.var/app/io.github.Cockatrice.cockatrice/data/Cockatrice/Cockatrice/themes/my-theme/* "$HOME/.var/app/io.github.Cockatrice.cockatrice/data/Cockatrice/Cockatrice/themes/my-theme/"
+cp -R $HOME/i3wm-dotfiles/debian/home/.var/app/* "$HOME/.var/app/"
 
 cp -R $HOME/i3wm-dotfiles/debian/home/.gtkrc-2.0 "$HOME"
 
