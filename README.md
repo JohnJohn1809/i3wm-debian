@@ -100,6 +100,11 @@ Caso queira entender a anatomia do repositório e o processo de instalação do 
 - [Curso GNU Linux By Professor Kretcheu (YouTube)](https://www.youtube.com/user/kretcheu2001/playlists)
 
 #### Outros
+
+- [cp man](https://www.man7.org/linux/man-pages/man1/cp.1.html)
+
+- [cd man](https://www.man7.org/linux/man-pages/man1/cd.1p.html)
+
 - [Arc-Dark Color Palette](https://www.color-hex.com/color-palette/36646)
 
 - [HTML Cores (Por Nome)](https://www.w3schools.com/colors/colors_names.asp)
