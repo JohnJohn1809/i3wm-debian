@@ -28,12 +28,12 @@ wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-libre
 
 # Flatpak Themes
 
-flatpak install org.gtk.Gtk3theme.Arc              
-flatpak install org.gtk.Gtk3theme.Arc-solid        
-flatpak install org.gtk.Gtk3theme.Arc-Darker       
-flatpak install org.gtk.Gtk3theme.Arc-Darker-solid 
-flatpak install org.gtk.Gtk3theme.Arc-Dark         
-flatpak install org.gtk.Gtk3theme.Arc-Dark-solid 
+#flatpak install org.gtk.Gtk3theme.Arc              
+#flatpak install org.gtk.Gtk3theme.Arc-solid        
+#flatpak install org.gtk.Gtk3theme.Arc-Darker       
+#flatpak install org.gtk.Gtk3theme.Arc-Darker-solid 
+#flatpak install org.gtk.Gtk3theme.Arc-Dark         
+#flatpak install org.gtk.Gtk3theme.Arc-Dark-solid 
 
 # Apply Plymouth
 
