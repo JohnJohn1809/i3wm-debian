@@ -6,10 +6,8 @@ git clone https://github.com/JohnJohn1809/i3wm-dotfiles.git
 
 # Make Folders
 
-mkdir -p $HOME/.config
-
-mkdir $HOME/.var/app/io.github.Cockatrice.cockatrice/data/Cockatrice/Cockatrice/pics/CUSTOM/
-mkdir $HOME/.var/app/io.github.Cockatrice.cockatrice/data/Cockatrice/Cockatrice/themes/my-theme/
+mkdir -p $HOME/.config/
+mkdir $HOME/.var/app/
 
 mkdir $HOME/Downloads/Mega
 mkdir $HOME/Downloads/ClipGrab
@@ -26,7 +24,11 @@ cp -f /etc/xdg/dunst/dunstrc ~/.config/dunst/dunstrc
 
 # Moving Configs
 
-cp -R $HOME/i3wm-dotfiles/debian/home/* "$HOME"
+cp -R $HOME/i3wm-dotfiles/debian/home/.config/* "$HOME/.config/"
+
+cp -R $HOME/i3wm-dotfiles/debian/home/.var/app/* "$HOME/.var/app/"
+
+cp -R $HOME/i3wm-dotfiles/debian/home/.gtkrc-2.0 "$HOME"
 
 sudo cp -R $HOME/i3wm-dotfiles/debian/boot/* "/boot/"
 
