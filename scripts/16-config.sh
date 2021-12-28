@@ -8,6 +8,7 @@ git clone https://github.com/JohnJohn1809/i3wm-dotfiles.git
 
 mkdir -p $HOME/.config/
 mkdir $HOME/.var/app/
+sudo mkdir /root/.config/
 
 mkdir $HOME/Downloads/Mega
 mkdir $HOME/Downloads/ClipGrab
