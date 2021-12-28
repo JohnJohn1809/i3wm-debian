@@ -26,7 +26,7 @@ cp -f /etc/xdg/dunst/dunstrc ~/.config/dunst/dunstrc
 
 # Moving Configs
 
-cp -R $HOME/i3wm-dotfiles/debian/.config/* "$HOME/.config/"
+cp -R $HOME/i3wm-dotfiles/debian/home/.config/* "$HOME/.config/"
 
 cp -R $HOME/i3wm-dotfiles/debian/home/.var/app/* "$HOME/.var/app/"
 
@@ -35,8 +35,6 @@ cp -R $HOME/i3wm-dotfiles/debian/home/.gtkrc-2.0 "$HOME"
 sudo cp -R $HOME/i3wm-dotfiles/debian/boot/* "/boot/"
 
 sudo cp -R $HOME/i3wm-dotfiles/debian/etc/* "/etc/"
-
-sudo cp -R $HOME/i3wm-dotfiles/debian/usr/* "/usr/"
 
 sudo cp -R $HOME/i3wm-dotfiles/debian/usr/* "/usr/"
 
