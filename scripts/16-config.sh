@@ -3,7 +3,7 @@
 # Make Folders
 
 mkdir -p $HOME/.config/
-mkdir $HOME/.var/app/
+mkdir -p $HOME/.var/app/
 sudo mkdir /root/.config/
 
 mkdir $HOME/Downloads/Mega
@@ -14,6 +14,16 @@ mkdir $HOME/Downloads/Warpinator
 mkdir $HOME/Downloads/Telegram
 mkdir $HOME/Downloads/Random
 mkdir $HOME/Pictures/Screenshots
+
+# Change Dunst Default Local Config for Custom Path
+
+cp -f /etc/xdg/dunst/dunstrc ~/.config/dunst/dunstrc
+
+cd $HOME/.config/dunst/
+
+rm -rf dunstrc
+
+cd $HOME/i3wm-debian/scripts/
 
 # Moving Configs
 
@@ -31,9 +41,6 @@ sudo cp -R $HOME/i3wm-dotfiles/debian/usr/* "/usr/"
 
 sudo cp -R $HOME/i3wm-dotfiles/debian/root/.config/* "/root/.config/"
 
-# Change Dunst Default Local Config for Custom Path 
-
-cp -f /etc/xdg/dunst/dunstrc ~/.config/dunst/dunstrc
 
 # Deleting Default Menu Entries
 
