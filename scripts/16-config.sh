@@ -19,10 +19,6 @@ mkdir $HOME/Downloads/Telegram
 mkdir $HOME/Downloads/Random
 mkdir $HOME/Pictures/Screenshots
 
-# Change Dunst Default Local Config for Custom Path 
-
-cp -f /etc/xdg/dunst/dunstrc ~/.config/dunst/dunstrc
-
 # Moving Configs
 
 cp -R $HOME/i3wm-dotfiles/debian/home/.config/* "$HOME/.config/"
@@ -38,6 +34,10 @@ sudo cp -R $HOME/i3wm-dotfiles/debian/etc/* "/etc/"
 sudo cp -R $HOME/i3wm-dotfiles/debian/usr/* "/usr/"
 
 sudo cp -R $HOME/i3wm-dotfiles/debian/root/.config/* "/root/.config/"
+
+# Change Dunst Default Local Config for Custom Path 
+
+cp -f /etc/xdg/dunst/dunstrc ~/.config/dunst/dunstrc
 
 # Deleting Default Menu Entries
 
