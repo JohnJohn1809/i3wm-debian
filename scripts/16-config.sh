@@ -1,9 +1,5 @@
 #!/bin/sh
 
-cd $HOME
-
-git clone https://github.com/JohnJohn1809/i3wm-dotfiles.git
-
 # Make Folders
 
 mkdir -p $HOME/.config/
