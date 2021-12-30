@@ -49,7 +49,7 @@ wget -c 'https://www.dropbox.com/sh/pmopqbfcm1ztcnx/AAB9EwsrC7uMt_-vBoSR5Vo1a?dl
 
 # Extracting
 
-mv AADexsVnIBNA-daaLw-zkmb2a?dl=0 gtk-themes.zip
+mv AAB9EwsrC7uMt_-vBoSR5Vo1a?dl=0 gtk-themes.zip
 
 mkdir $HOME/gtk-themes/
 
@@ -68,33 +68,3 @@ cd $HOME
 rm -rf gtk-themes
 
 cd $HOME/i3wm-debian/scripts/
-
-------------------------------[old]----------------------------------
-
-#cd -
-#cd gtk-themes
-#cd icons
-#sudo tar xvzf capitaine-cursor-dark-r4.tar.gz -C /usr/share/icons/
-#cd -
-#cd -
-#cd scripts
-
-------------------------------[old]----------------------------------
-
-#cd $HOME/i3wm-debian/gtk-themes/
-#sudo tar xvzf capitaine-cursor-dark-r4.tar.gz -C /usr/share/icons/
-#cd $HOME/i3wm-debian/scripts/
-
-------------------------------[old]----------------------------------
-
-# Fake Adwaita Theme for Fix Mouse in Flatpak Apps
-
-#cd -
-#cd gtk-themes
-#cd icons
-#sudo cp -r Adwaita /usr/share/icons/
-#cd -
-#cd -
-#cd scripts
-
-------------------------------[old]----------------------------------
