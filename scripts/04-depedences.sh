@@ -4,7 +4,6 @@
 
 sudo dpkg --add-architecture i386
 sudo apt update
-sudo apt upgrade -y
 
 # Thunar
 
@@ -28,3 +27,7 @@ sudo apt install ffmpeg -y
 
 sudo apt install firmware-realtek -y
 sudo apt install firmware-linux -y
+
+# Upgrade
+
+sudo apt upgrade -y
