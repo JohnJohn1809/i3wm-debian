@@ -4,6 +4,7 @@
 
 mkdir -p $HOME/.config/
 mkdir -p $HOME/.var/app/
+mkdir -p $HOME/.local/share/applications/
 sudo mkdir /root/.config/
 
 mkdir $HOME/Downloads/Mega
@@ -28,6 +29,8 @@ cd $HOME/i3wm-debian/scripts/
 # Moving Configs
 
 cp -R $HOME/i3wm-dotfiles/debian/home/.config/* "$HOME/.config/"
+
+cp -R $HOME/i3wm-dotfiles/debian/home/.local/share/applications/* "$HOME/.local/share/applications/"
 
 cp -R $HOME/i3wm-dotfiles/debian/home/.var/app/* "$HOME/.var/app/"
 
