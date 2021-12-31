@@ -36,18 +36,12 @@ sudo dpkg -i ./megasync.deb
 sudo apt install -f -y
 sudo dpkg -i ./megasync.deb
 
-sudo dpkg -i ./steam.deb
-sudo apt install -f -y
-sudo dpkg -i ./steam.deb
+#sudo dpkg -i ./steam.deb
+#sudo apt install -f -y
+#sudo dpkg -i ./steam.deb
 
 cd $HOME/applications/ 
 
 rm -rf debs
-
-# Shortcuts
-
-cp -R $HOME/applications/shortcuts/* "$HOME/.local/share/applications/"
-
-rm -rf shortcuts
 
 cd $HOME/i3wm-debian/scripts/
