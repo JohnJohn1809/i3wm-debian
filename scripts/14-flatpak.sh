@@ -44,6 +44,8 @@ flatpak install flathub io.github.Cockatrice.cockatrice
 
 flatpak install flathub net.ankiweb.Anki
 
+flatpak install flathub io.github.lainsce.Khronos
+
 flatpak install flathub com.rafaelmardojai.Blanket
 
 flatpak install flathub org.x.Warpinator
