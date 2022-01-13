@@ -13,3 +13,7 @@ sudo apt install atril -y
 # Text Editor
 
 sudo apt install geany -y
+
+# General
+
+sudo apt install okular -y
