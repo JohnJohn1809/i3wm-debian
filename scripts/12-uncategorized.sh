@@ -10,6 +10,8 @@ sudo apt install neofetch -y
 sudo apt install keepassxc -y
 sudo apt install synaptic -y
 sudo apt install transmission -y
+sudo apt-get install simplescreenrecorder -y
+sudo apt-get install simplescreenrecorder-lib:i386 -y
 
 # Spotify
 
