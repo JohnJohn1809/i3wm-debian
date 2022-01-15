@@ -40,22 +40,20 @@ flatpak install flathub io.github.Cockatrice.cockatrice
 
 # Other
 
-#flatpak install flathub org.gnome.EasyTAG
-
 flatpak install flathub net.ankiweb.Anki
 
-flatpak install flathub io.github.lainsce.Khronos
-
-flatpak install flathub com.rafaelmardojai.Blanket
+flatpak install flathub org.gnome.EasyTAG
 
 flatpak install flathub com.github.gi_lom.dialect
 
-flatpak install flathub org.gnome.gitlab.YaLTeR.VideoTrimmer
+flatpak install flathub io.github.lainsce.Khronos
 
 flatpak install flathub com.github.unrud.VideoDownloader
 
+flatpak install flathub org.gnome.gitlab.YaLTeR.VideoTrimmer
+
 flatpak install flathub com.github.tchx84.Flatseal
 
-#flatpak install flathub org.freefilesync.FreeFileSync
+flatpak install flathub com.rafaelmardojai.Blanket
 
 flatpak install flathub org.x.Warpinator
