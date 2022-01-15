@@ -42,10 +42,6 @@ flatpak install flathub io.github.Cockatrice.cockatrice
 
 flatpak install flathub net.ankiweb.Anki
 
-flatpak install flathub org.gnome.EasyTAG
-
-flatpak install flathub com.github.gi_lom.dialect
-
 flatpak install flathub io.github.lainsce.Khronos
 
 flatpak install flathub com.github.unrud.VideoDownloader
