@@ -30,9 +30,9 @@ flatpak install org.gnome.gitlab.somas.Apostrophe.Plugin.TexLive
 
 # Image Editor
 
-flatpak install flathub org.gimp.GIMP
+#flatpak install flathub org.gimp.GIMP
 
-flatpak install flathub com.github.maoschanz.drawing
+#flatpak install flathub com.github.maoschanz.drawing
 
 # Gaming
 
