@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+# Text Editor
+
+sudo apt install gimp -y
+sudo apt install drawing -y
+
 # Random
 
 sudo apt install ncal -y
