@@ -9,6 +9,7 @@ sudo apt install numlockx -y
 sudo apt install neofetch -y
 sudo apt install keepassxc -y
 sudo apt install synaptic -y
+sudo apt install easytag -y
 sudo apt install transmission -y
 sudo apt install simplescreenrecorder -y
 sudo apt install simplescreenrecorder-lib:i386 -y
