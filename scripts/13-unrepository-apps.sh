@@ -32,6 +32,10 @@ rm 4kvideodownloader.tar.bz2
 
 cd $HOME/applications/debs/
 
+sudo dpkg -i ./opera.deb
+
+sudo dpkg -i ./vivaldi.deb
+
 sudo dpkg -i ./megasync.deb
 sudo apt install -f -y
 sudo dpkg -i ./megasync.deb
