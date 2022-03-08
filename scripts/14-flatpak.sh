@@ -54,4 +54,6 @@ flatpak install flathub com.github.tchx84.Flatseal
 
 flatpak install flathub com.rafaelmardojai.Blanket
 
+flatpak install flathub com.github.robertsanseries.ciano
+
 flatpak install flathub org.x.Warpinator
