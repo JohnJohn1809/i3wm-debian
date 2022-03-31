@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# Firefox
+
+sudo apt install firefox-esr -y
+
 # Brave
 
 sudo apt install apt-transport-https curl
@@ -9,7 +13,3 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=
 sudo apt update
 
 sudo apt install brave-browser -y
-
-# Firefox
-
-#sudo apt install firefox-esr
