@@ -8,9 +8,9 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 
 # Web Browser
 
-sudo apt remove firefox-esr -y
+#sudo apt remove firefox-esr -y
 
-flatpak install flathub org.mozilla.firefox
+#flatpak install flathub org.mozilla.firefox
 
 # Social
 
