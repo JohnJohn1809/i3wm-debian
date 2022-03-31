@@ -67,3 +67,4 @@ cd $HOME/i3wm-debian/scripts/
 # Grub
 
 sudo update-grub
+sudo systemctl restart lightdm
