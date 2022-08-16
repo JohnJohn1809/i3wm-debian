@@ -20,9 +20,10 @@ sudo apt install fonts-font-awesome -y
 # Themes
 
 sudo apt install arc-theme -y
-sudo apt install papirus-icon-theme -y
 
-# Papirus LibreOffice Theme
+# Papirus
+
+wget -qO- https://git.io/papirus-icon-theme-install | sh
 
 wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-libreoffice-theme/master/install-papirus-root.sh | sh
 
