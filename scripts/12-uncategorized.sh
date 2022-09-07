@@ -17,6 +17,8 @@ sudo apt install synaptic -y
 sudo apt install easytag -y
 sudo apt install font-viewer -y
 sudo apt install transmission -y
+sudo apt install easytag -y
+sudo apt install color-picker -y
 sudo apt install simplescreenrecorder -y
 sudo apt install simplescreenrecorder-lib:i386 -y
 
