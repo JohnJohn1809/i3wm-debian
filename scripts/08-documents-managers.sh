@@ -1,19 +1,19 @@
 #!/usr/bin/env bash
 
-# Office
+# Text Editor
 
-sudo apt install libreoffice -y
-sudo apt install libreoffice-gtk3 -y
-sudo apt install libreoffice-l10n-pt-br -y
+sudo apt install geany -y
 
 # Pdf
 
 sudo apt install atril -y
 sudo apt install pdfarranger -y
 
-# Text Editor
+# Office
 
-sudo apt install geany -y
+sudo apt install libreoffice -y
+sudo apt install libreoffice-gtk3 -y
+sudo apt install libreoffice-l10n-pt-br -y
 
 # MS Fonts
 
