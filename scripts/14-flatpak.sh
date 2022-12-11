@@ -20,7 +20,7 @@ flatpak install flathub com.discordapp.Discord
 
 # Text Edit
 
-flatpak install flathub io.typora.Typora
+#flatpak install flathub io.typora.Typora
 
 flatpak install flathub com.simplenote.Simplenote
 
@@ -36,7 +36,7 @@ flatpak install flathub org.gnome.gitlab.somas.Apostrophe
 
 # Gaming
 
-flatpak install flathub io.github.Cockatrice.cockatrice
+#flatpak install flathub io.github.Cockatrice.cockatrice
 
 # Multmidia
 
