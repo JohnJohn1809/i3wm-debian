@@ -60,6 +60,8 @@ flatpak install flathub org.gabmus.whatip
 
 flatpak install flathub io.github.arunsivaramanneo.GPUViewer
 
+flatpak install flathub com.gitlab.newsflash
+
 flatpak install flathub io.github.lainsce.Emulsion
 
 flatpak install flathub io.github.mmstick.FontFinder
