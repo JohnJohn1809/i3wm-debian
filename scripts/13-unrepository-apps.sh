@@ -18,15 +18,15 @@ rm applications.zip
 
 # Other
 
-cd $HOME/applications/other/
+#cd $HOME/applications/other/
 
-tar xf 4kstogram.tar.bz2 -C $HOME/applications/other/
+#tar xf 4kstogram.tar.bz2 -C $HOME/applications/other/
 
-tar xf 4kvideodownloader.tar.bz2 -C $HOME/applications/other/
+#tar xf 4kvideodownloader.tar.bz2 -C $HOME/applications/other/
 
-rm 4kstogram.tar.bz2
+#rm 4kstogram.tar.bz2
 
-rm 4kvideodownloader.tar.bz2
+#rm 4kvideodownloader.tar.bz2
 
 # Debs
 
