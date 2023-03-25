@@ -8,9 +8,9 @@ mkdir -p $HOME/.local/share/applications/
 sudo mkdir /root/.config/
 
 mkdir $HOME/Downloads/Mega
-mkdir $HOME/Downloads/ClipGrab
-mkdir $HOME/Downloads/4kstogram
-mkdir $HOME/Downloads/4kvideodownloader
+#mkdir $HOME/Downloads/ClipGrab
+#mkdir $HOME/Downloads/4kstogram
+#mkdir $HOME/Downloads/4kvideodownloader
 mkdir $HOME/Downloads/Warpinator
 mkdir $HOME/Downloads/Telegram
 mkdir $HOME/Downloads/Random
